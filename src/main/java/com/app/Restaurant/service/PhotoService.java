@@ -3,7 +3,6 @@ package com.app.Restaurant.service;
 import com.app.Restaurant.POJO.Photo;
 import org.springframework.http.ResponseEntity;
 
-import javax.persistence.criteria.CriteriaBuilder;
 import java.util.List;
 
 public interface PhotoService {

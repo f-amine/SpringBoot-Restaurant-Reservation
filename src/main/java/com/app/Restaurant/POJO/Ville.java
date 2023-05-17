@@ -2,9 +2,14 @@ package com.app.Restaurant.POJO;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.OneToMany;
 import lombok.Data;
 
-import javax.persistence.*;
+import jakarta.persistence.Id;
+import jakarta.persistence.NamedQuery;
 import java.util.List;
 
 @NamedQuery(name="Ville.getAllVille", query = "select v from Ville v")

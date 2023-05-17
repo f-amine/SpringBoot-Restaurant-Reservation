@@ -1,7 +1,12 @@
 package com.app.Restaurant.POJO;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.OneToOne;
 import lombok.Data;
-import javax.persistence.*;
+import jakarta.persistence.Id;
 @Data
 @Entity
 public class Photo {
@@ -11,6 +16,7 @@ public class Photo {
     @GeneratedValue(strategy= GenerationType.IDENTITY)
     private int id;
     private String url;
+    @JsonIgnore
     @OneToOne
     private Restaurant rest;
 }

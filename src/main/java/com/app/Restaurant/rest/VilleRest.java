@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RequestMapping(path="/api")
+@CrossOrigin(origins="http://localhost:3001")
 public interface VilleRest {
     @GetMapping(path="/villes")
     public ResponseEntity<List<Ville>> getAllVille();

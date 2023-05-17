@@ -91,9 +91,8 @@ public class VilleServiceImpl implements VilleService{
             villeDao.deleteById(id);
             return new ResponseEntity<>("Ville Deleted Succesfully",HttpStatus.OK);
         }catch (Exception ex){
-            ex.printStackTrace();
+            return new ResponseEntity<>("SOMETHING WENT WRONG",HttpStatus.BAD_REQUEST);
         }
-        return new ResponseEntity<Ville>(new Ville(), HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
     @Override

@@ -1,11 +1,13 @@
 package com.app.Restaurant.POJO;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import jakarta.persistence.*;
 import lombok.Data;
 
-import javax.persistence.*;
+
 import java.time.LocalTime;
 import java.util.List;
+
 @Data
 @Entity
 public class Restaurant {
@@ -22,17 +24,18 @@ public class Restaurant {
     private String weekend;
     private int rank;
 
-    @JsonIgnore
+
     @OneToMany(mappedBy = "restaurant")
     private List<RestaurantSpecialite> restaurantspecialite;
+
 
     @OneToOne
     private User user;
 
+
     @ManyToOne
     private Zone zones;
 
-    @JsonIgnore
     @ManyToOne
     private Serie series;
 

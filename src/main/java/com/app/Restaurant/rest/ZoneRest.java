@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RequestMapping(path ="/api/zones")
+@CrossOrigin(origins="http://localhost:3002")
 public interface ZoneRest {
     @GetMapping(path ="/")
     ResponseEntity<List<Zone>> getAllZones();

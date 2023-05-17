@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RequestMapping(path ="/api/photos")
+@CrossOrigin(origins="http://localhost:3002")
 public interface PhotoRest {
 
     @GetMapping(path ="/")
