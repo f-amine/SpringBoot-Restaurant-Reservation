@@ -2,6 +2,7 @@ package com.app.Restaurant.POJO;
 
 
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.hibernate.annotations.DynamicInsert;
@@ -40,5 +41,6 @@ public class User implements Serializable {
             inverseJoinColumns = @JoinColumn(name = "role_id"))
     private List<Role> roles;
     @OneToOne(mappedBy="user")
+    @JsonIgnore
     private Restaurant rest;
 }

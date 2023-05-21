@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RequestMapping(path ="/api/roles")
-@CrossOrigin(origins="http://localhost:3000")
 public interface RoleRest {
     @GetMapping(path ="/")
     ResponseEntity<List<Role>> getAllRoles();

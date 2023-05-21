@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RequestMapping(path ="/api/restaurants")
-@CrossOrigin(origins="http://localhost:3000")
 public interface RestaurantRest {
 
     @GetMapping(path ="/")
