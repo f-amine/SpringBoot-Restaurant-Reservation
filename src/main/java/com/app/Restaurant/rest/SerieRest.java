@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RequestMapping(path ="/api/series")
-@CrossOrigin(origins="http://localhost:3002")
+@CrossOrigin(origins="http://localhost:3000")
 public interface SerieRest {
     @GetMapping(path ="/")
     ResponseEntity<List<Serie>> getAllSeries();

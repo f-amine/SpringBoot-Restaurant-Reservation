@@ -7,9 +7,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RequestMapping(path ="/api/zones")
-@CrossOrigin(origins="http://localhost:3002")
+@CrossOrigin(origins="http://localhost:3000")
 public interface ZoneRest {
-    @GetMapping(path ="/")
+    @GetMapping(path ="/get")
     ResponseEntity<List<Zone>> getAllZones();
 
     @GetMapping(path ="/{id}")

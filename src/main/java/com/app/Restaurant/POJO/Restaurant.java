@@ -1,5 +1,6 @@
 package com.app.Restaurant.POJO;
 
+import com.app.Restaurant.users.model.Users;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.Data;
@@ -23,14 +24,15 @@ public class Restaurant {
     private String adresse;
     private String weekend;
     private int rank;
+    private String picture;
 
-
+    private String description;
     @OneToMany(mappedBy = "restaurant")
     private List<RestaurantSpecialite> restaurantspecialite;
 
 
     @OneToOne
-    private User user;
+    private Users user;
 
 
     @ManyToOne
