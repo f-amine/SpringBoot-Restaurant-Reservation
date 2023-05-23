@@ -1,10 +1,8 @@
 package com.app.Restaurant.dao;
 
-import com.app.Restaurant.POJO.Ville;
-import com.app.Restaurant.POJO.Zone;
+import com.app.Restaurant.models.Zone;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import java.util.List;
 import java.util.Optional;
 
 public interface ZoneDao extends JpaRepository<Zone,Integer> {

@@ -1,7 +1,6 @@
 package com.app.Restaurant.dao;
 
-import com.app.Restaurant.POJO.Role;
-import com.app.Restaurant.POJO.Serie;
+import com.app.Restaurant.models.Serie;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface SerieDao extends JpaRepository<Serie,Integer> {

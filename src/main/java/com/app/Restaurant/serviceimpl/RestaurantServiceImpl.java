@@ -1,8 +1,7 @@
 package com.app.Restaurant.serviceimpl;
 
-import com.app.Restaurant.POJO.Photo;
-import com.app.Restaurant.POJO.Restaurant;
-import com.app.Restaurant.dao.PhotoDao;
+import com.app.Restaurant.models.Photo;
+import com.app.Restaurant.models.Restaurant;
 import com.app.Restaurant.dao.RestaurantDao;
 import com.app.Restaurant.service.RestaurantService;
 import org.springframework.beans.factory.annotation.Autowired;

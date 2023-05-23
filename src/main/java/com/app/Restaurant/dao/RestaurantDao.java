@@ -1,7 +1,7 @@
 package com.app.Restaurant.dao;
 
-import com.app.Restaurant.POJO.Restaurant;
-import com.app.Restaurant.POJO.Zone;
+import com.app.Restaurant.models.Restaurant;
+import com.app.Restaurant.models.Zone;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

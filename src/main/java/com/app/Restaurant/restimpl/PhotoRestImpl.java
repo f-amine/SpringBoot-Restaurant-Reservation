@@ -1,6 +1,6 @@
 package com.app.Restaurant.restimpl;
 
-import com.app.Restaurant.POJO.Photo;
+import com.app.Restaurant.models.Photo;
 import com.app.Restaurant.rest.PhotoRest;
 import com.app.Restaurant.service.PhotoService;
 import org.springframework.beans.factory.annotation.Autowired;

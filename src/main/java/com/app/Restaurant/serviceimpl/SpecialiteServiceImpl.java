@@ -1,6 +1,6 @@
 package com.app.Restaurant.serviceimpl;
 
-import com.app.Restaurant.POJO.Specialite;
+import com.app.Restaurant.models.Specialite;
 import com.app.Restaurant.dao.SpecialiteDao;
 import com.app.Restaurant.service.SpecialiteService;
 import org.springframework.beans.factory.annotation.Autowired;

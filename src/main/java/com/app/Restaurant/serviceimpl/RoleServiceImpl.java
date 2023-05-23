@@ -1,6 +1,6 @@
 package com.app.Restaurant.serviceimpl;
 
-import com.app.Restaurant.POJO.Role;
+import com.app.Restaurant.models.Role;
 import com.app.Restaurant.dao.RoleDao;
 import com.app.Restaurant.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;

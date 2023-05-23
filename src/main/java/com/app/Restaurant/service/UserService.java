@@ -1,6 +1,6 @@
 package com.app.Restaurant.service;
 
-import com.app.Restaurant.POJO.User;
+import com.app.Restaurant.models.User;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

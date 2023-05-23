@@ -1,33 +1,24 @@
 package com.app.Restaurant.serviceimpl;
 
-import com.app.Restaurant.POJO.Restaurant;
-import com.app.Restaurant.POJO.RestaurantSpecialite;
-import com.app.Restaurant.POJO.Ville;
-import com.app.Restaurant.POJO.Zone;
+import com.app.Restaurant.models.Restaurant;
+import com.app.Restaurant.models.RestaurantSpecialite;
+import com.app.Restaurant.models.Ville;
+import com.app.Restaurant.models.Zone;
 import com.app.Restaurant.RestaurantApplication;
-import com.app.Restaurant.constents.RestaurantConstant;
 import com.app.Restaurant.dao.RestaurantDao;
 import com.app.Restaurant.dao.RestaurantSpecialiteDao;
 import com.app.Restaurant.dao.VilleDao;
 import com.app.Restaurant.dao.ZoneDao;
 import com.app.Restaurant.service.VilleService;
-import com.app.Restaurant.utils.RestaurantUtils;
-import com.fasterxml.jackson.databind.JsonNode;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
-import org.springframework.web.client.RestTemplate;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.HttpURLConnection;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
-import org.json.*;
 
 @Slf4j
 @Service

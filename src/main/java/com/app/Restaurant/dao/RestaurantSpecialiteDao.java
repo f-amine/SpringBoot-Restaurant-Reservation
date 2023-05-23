@@ -1,7 +1,6 @@
 package com.app.Restaurant.dao;
 
-import com.app.Restaurant.POJO.Restaurant;
-import com.app.Restaurant.POJO.RestaurantSpecialite;
+import com.app.Restaurant.models.RestaurantSpecialite;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

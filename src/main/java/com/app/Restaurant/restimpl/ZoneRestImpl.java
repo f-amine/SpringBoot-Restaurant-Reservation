@@ -1,6 +1,6 @@
 package com.app.Restaurant.restimpl;
 
-import com.app.Restaurant.POJO.Zone;
+import com.app.Restaurant.models.Zone;
 import com.app.Restaurant.rest.ZoneRest;
 import com.app.Restaurant.service.ZoneService;
 import org.springframework.beans.factory.annotation.Autowired;

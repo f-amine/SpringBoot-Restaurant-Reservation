@@ -1,6 +1,6 @@
 package com.app.Restaurant.service;
 
-import com.app.Restaurant.POJO.Photo;
+import com.app.Restaurant.models.Photo;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

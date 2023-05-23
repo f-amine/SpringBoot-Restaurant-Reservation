@@ -1,9 +1,7 @@
 package com.app.Restaurant.serviceimpl;
 
-import com.app.Restaurant.POJO.User;
-import com.app.Restaurant.dao.SpecialiteDao;
+import com.app.Restaurant.models.User;
 import com.app.Restaurant.dao.UserDao;
-import com.app.Restaurant.service.SpecialiteService;
 import com.app.Restaurant.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

@@ -1,7 +1,6 @@
 package com.app.Restaurant.rest;
 
-import com.app.Restaurant.POJO.Photo;
-import org.springframework.data.repository.CrudRepository;
+import com.app.Restaurant.models.Photo;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

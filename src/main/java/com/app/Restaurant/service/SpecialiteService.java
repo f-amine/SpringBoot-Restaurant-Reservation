@@ -1,7 +1,6 @@
 package com.app.Restaurant.service;
 
-import com.app.Restaurant.POJO.Serie;
-import com.app.Restaurant.POJO.Specialite;
+import com.app.Restaurant.models.Specialite;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;

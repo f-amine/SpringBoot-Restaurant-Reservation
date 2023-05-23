@@ -1,10 +1,7 @@
 package com.app.Restaurant.restimpl;
 
-import com.app.Restaurant.POJO.Photo;
-import com.app.Restaurant.POJO.Restaurant;
-import com.app.Restaurant.rest.PhotoRest;
+import com.app.Restaurant.models.Restaurant;
 import com.app.Restaurant.rest.RestaurantRest;
-import com.app.Restaurant.service.PhotoService;
 import com.app.Restaurant.service.RestaurantService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

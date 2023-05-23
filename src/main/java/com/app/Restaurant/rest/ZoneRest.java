@@ -1,6 +1,6 @@
 package com.app.Restaurant.rest;
 
-import com.app.Restaurant.POJO.Zone;
+import com.app.Restaurant.models.Zone;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

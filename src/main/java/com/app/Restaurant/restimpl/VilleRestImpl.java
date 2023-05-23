@@ -1,8 +1,8 @@
 package com.app.Restaurant.restimpl;
 
-import com.app.Restaurant.POJO.Restaurant;
-import com.app.Restaurant.POJO.Ville;
-import com.app.Restaurant.POJO.Zone;
+import com.app.Restaurant.models.Restaurant;
+import com.app.Restaurant.models.Ville;
+import com.app.Restaurant.models.Zone;
 import com.app.Restaurant.rest.VilleRest;
 import com.app.Restaurant.service.VilleService;
 import org.springframework.beans.factory.annotation.Autowired;

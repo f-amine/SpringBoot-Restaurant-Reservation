@@ -1,6 +1,6 @@
 package com.app.Restaurant.restimpl;
 
-import com.app.Restaurant.POJO.Specialite;
+import com.app.Restaurant.models.Specialite;
 import com.app.Restaurant.rest.SpecialiteRest;
 import com.app.Restaurant.service.SpecialiteService;
 import org.springframework.beans.factory.annotation.Autowired;

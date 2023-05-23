@@ -1,6 +1,6 @@
 package com.app.Restaurant.serviceimpl;
 
-import com.app.Restaurant.POJO.Photo;
+import com.app.Restaurant.models.Photo;
 import com.app.Restaurant.dao.PhotoDao;
 import com.app.Restaurant.service.PhotoService;
 import lombok.extern.slf4j.Slf4j;

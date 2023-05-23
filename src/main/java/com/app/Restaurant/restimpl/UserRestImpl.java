@@ -1,6 +1,6 @@
 package com.app.Restaurant.restimpl;
 
-import com.app.Restaurant.POJO.User;
+import com.app.Restaurant.models.User;
 import com.app.Restaurant.rest.UserRest;
 import com.app.Restaurant.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
